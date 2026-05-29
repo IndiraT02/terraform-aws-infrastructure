@@ -1,0 +1,19 @@
+# Terraform state files (contain sensitive data)
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Terraform directory
+.terraform/
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+
+# Override files
+override.tf
+override.tf.json
+
+# AWS credentials (never commit these)
+*.pem
+.aws/
